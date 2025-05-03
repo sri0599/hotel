@@ -28,9 +28,7 @@ public class HotelSearchController {
 		
 		Long roomCount = hotelSearchService.getAvailableRoomCount(hotelId, date, roomType);
 		availableRoomCount.put("availableRoomCount", roomCount);
-		
-		
-		
+				
 		return availableRoomCount;
 	}
 
