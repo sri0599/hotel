@@ -31,6 +31,7 @@ public class HotelSearchController {
 		availableRoomCount.put("availableRoomCount", roomCount);
 				
 		return availableRoomCount;
+		
 	}
 
 	/***[Command 2]*************************************/
