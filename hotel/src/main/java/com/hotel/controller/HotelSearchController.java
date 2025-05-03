@@ -41,6 +41,7 @@ public class HotelSearchController {
 		availableRoomCount = hotelSearchService.getAvailableRooms(hotelId, days, roomType);
 		
 		return availableRoomCount;
+		
 	}
 
 }
