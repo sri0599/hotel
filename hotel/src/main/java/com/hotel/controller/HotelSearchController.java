@@ -20,6 +20,7 @@ public class HotelSearchController {
 	@Autowired
 	private HotelSearchService hotelSearchService;
 	
+	
 	/***[Command 1]*************************************/
 	@GetMapping("/Availability/{hotelId}/{date}/{roomType}")
 	public Map<String,Long> checkAvailability(@PathVariable String hotelId, @PathVariable String date,@PathVariable  String roomType) throws StreamReadException, DatabindException, FileNotFoundException, IOException {
